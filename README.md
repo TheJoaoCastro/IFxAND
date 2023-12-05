@@ -1,2 +1,2 @@
 # IFxAND
- Primeiro site \ Segundo projeto \ Site institucional \ HTML CSS JS
+ Primeiro site \ Site institucional \ HTML CSS JS
