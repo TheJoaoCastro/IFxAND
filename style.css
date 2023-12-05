@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    text-decoration: none;
+}
+
+#login {
+    display: grid;
+    grid-template-areas: "inputs" "footer";
+    grid-template-rows: 90vh 10vh;
+    text-align: center;
+    background-image: url(imagens/backgroundlogin.gif);
+}
+
+#menu {
+    display: grid;
+    grid-template-areas: "menulogo" "noticia1" "footer";
+    grid-template-rows: 15vh 75vh 10vh;
+    text-align: center;
+    background-image: url(imagens/backgroundlogin.gif);
+}
+
+#noticia {
+    display: grid;
+    grid-template-areas: "noticialogo" "noticia1" "footer";
+    grid-template-rows: 10vh 80vh 10vh;
+    text-align: center;
+    background-image: url(imagens/backgroundlogin.gif);
+}
+
+#materias {
+    display: grid;
+    grid-template-areas: "noticialogo" "materias";
+    grid-template-rows: 10vh 90vh;
+    text-align: center;
+    background-image: url(imagens/backgroundlogin.gif);
+}
+
+.menufooter {
+    grid-area: footer;
+    font-size: 10px;
+    margin: 10px;
+}
+
+.menuNoticia {
+    grid-area: noticia1;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.menuTitulo {
+    grid-area: titulo;
+    background-color: black;
+    color: white;
+}
+
+.menupreview {
+    text-align: justify;
+    color: black;
+    margin: 10px;
+}
+
+.menulogo {
+    grid-area: menulogo;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.noticialogo {
+    grid-area: noticialogo;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.loginbt {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-color: grey;
+    align-items: center;
+    font-family: monospace;
+}
+
+.loginLogo {
+    grid-area: logo;
+    padding: 5vh;
+}
+
+.loginInputs {
+    grid-area: inputs;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.footer {
+    grid-area: footer;
+    padding: 5px;
+    margin-bottom: 0;
+    font-size: 10px;
+    font-family: monospace;
+}
+
+.red {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.bold {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.link {
+    color: black;
+}
+
+.titulo {
+    background: black;
+    color: white;
+    margin: 10px;
+    padding: 3px;
+    font-family: monospace;
+}
+
+.menuMaterias {
+    grid-area: materias;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.menuTitulo {
+    grid-area: materias;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(138, 138, 138, 0);
+}
+
+.nav1 {
+    position: absolute;
+    background: gray;
+}
+
+.bt {
+    background: rgb(101, 101, 101);
+    color: white;
+    padding: 3px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+h4 {
+    color: black;
+    margin: 5px;
+}
+
+.btmargin {
+    margin: 5px;
+}
+
+.espaca {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.abrirmenu {
+    font-size: 30px;
+    color: black;
+}
+
+#barralateral {
+    background: white;
+    height: 100vh;
+    width: 0vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+nav a {
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+    display: block;
+    padding: 12px;
+}
+
+nav a:hover {
+    background: black;
+    color: white;
+}
+
+.sair {
+    color: red;
+}
